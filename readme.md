@@ -1,30 +1,30 @@
 # Title
 
-Readme Generator
+d
 
 ## Website URL
 
-https://github.com/sushmakaluva/Readme-Generator
+g
 
 ## Description
 
-It is a readme generator
+s
 
 ## Table of Contents
 
-Usage
+Tests
 
 ## Installation
 
-Follow the documenation from npm manager
+j
 
 ## Usage
 
-Can generate readme's for applications
+a
 
 ## License
 
-![NPM](https://img.shields.io/npm/l/)
+![NPM](https://img.shields.io/npm/l/util,inquirer,axios)
 
 ## Contributing
 
@@ -32,9 +32,8 @@ If interested, please contribute to the project at https://github.com/sushmakalu
 
 ## Tests
 
-Follow the test cases
+h
 
 ## Questions
 
-If any questions, reach out to me at kaluvasushma@gmail.com 
- Github URL: https://github.com/sushmakaluva/
+If any questions, reach out to me at kaluvasushma@gmail.com
