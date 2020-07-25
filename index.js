@@ -31,19 +31,14 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Enter contributing factors',
-      name: 'Contributing',
-    },
-    {
-      type: 'input',
       message: 'Enter tests to be done',
       name: 'Tests',
     },
     {
-      type: 'list',
+      type: 'checkbox',
       message: 'Enter license details',
       name: 'License',
-      choices: ['npm', 'PostgreSQL', 'Microsoft', 'Mozilla'],
+      choices: ['util', 'http', 'inquirer', 'axios'],
     },
 
     {
@@ -74,7 +69,7 @@ inquirer
     const { Description } = response;
     const { Installation } = response;
     const { Usage } = response;
-    const { Contributing } = response;
+
     const { Tests } = response;
     const { License } = response;
 
@@ -82,8 +77,9 @@ inquirer
     const { Email } = response;
     const { Contents } = response;
 
+    const result = `# Title\n\n${Title}\n\n## Website URL\n\n${URL}\n\n## Description\n\n${Description}\n\n## Table of Contents\n\n${Contents}\n\n## Installation\n\n${Installation}\n\n## Usage\n\n${Usage}\n\n## License\n\n![NPM](https://img.shields.io/npm/l/${License})\n\n## Contributing\n\nIf interested, please contribute to the project at https://github.com/${Username}/ \n\n## Tests\n\n${Tests}\n\n## Questions\n\nIf any questions, reach out to me at ${Email} \nGithub URL: https://github.com/${Username}/\n`;
 
-    fs.writeFile('readme.md', `# Title\n\n${Title}\n\n## Website URL\n\n${URL}\n\n### Description\n\n${Description}\n\n### Table of Contents\n\n${Contents}\n\n### Installation\n\n${Installation}\n\n### Usage\n\n${Usage}\n\n### License\n\n![NPM](https://img.shields.io/npm/l/${License})\n\n### Contributing\n\n${Contributing}\n\n### Tests\n\n${Tests}\n\n### Questions\n\nIf any questions,reach out to me at ${Email} /n Github URL: https://github.com/${Username}/\n`, (err) => {
+    fs.writeFile('readme.md', result, (err) => {
       if (err) throw err;
       console.log('Saved!');
     });

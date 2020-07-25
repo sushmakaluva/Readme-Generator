@@ -1,39 +1,40 @@
 # Title
 
-Weather dashboard
+Readme Generator
 
 ## Website URL
 
-https://google.com
+https://github.com/sushmakaluva/Readme-Generator
 
-### Description
+## Description
 
-It is a weather application
+It is a readme generator
 
-### Table of Contents
+## Table of Contents
 
-Contributing
+Usage
 
-### Installation
+## Installation
 
-Follow the below steps
+Follow the documenation from npm manager
 
-### Usage
+## Usage
 
-See documentation
+Can generate readme's for applications
 
-### License
+## License
 
-![NPM](https://img.shields.io/npm/l/Microsoft)
+![NPM](https://img.shields.io/npm/l/)
 
-### Contributing
+## Contributing
 
-You can contribute
+If interested, please contribute to the project at https://github.com/sushmakaluva/ 
 
-### Tests
+## Tests
 
-follow test scripts
+Follow the test cases
 
-### Questions
+## Questions
 
-If any questions,reach out to me at kaluvasushma@gmail.com /n Github URL: https://github.com/sushmakaluva/
+If any questions, reach out to me at kaluvasushma@gmail.com 
+ Github URL: https://github.com/sushmakaluva/

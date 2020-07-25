@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/sushmakaluva/Readme-Generator#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "axios": "^0.19.2",
+    "http": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "util": "^0.12.3"
   }
 }
