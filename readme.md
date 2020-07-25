@@ -1,6 +1,6 @@
 # Title
 
-Sushma
+Weather dashboard
 
 ## Website URL
 
@@ -8,32 +8,32 @@ https://google.com
 
 ### Description
 
-nothing
+It is a weather application
 
 ### Table of Contents
 
-Questions
+Contributing
 
 ### Installation
 
-no
+Follow the below steps
 
 ### Usage
 
-no
+See documentation
 
 ### License
 
-![NPM](https://img.shields.io/npm/l/PostgreSQL)
+![NPM](https://img.shields.io/npm/l/Microsoft)
 
 ### Contributing
 
-no
+You can contribute
 
-### Tests to be done
+### Tests
 
-no
+follow test scripts
 
 ### Questions
 
-gnj
+If any questions,reach out to me at kaluvasushma@gmail.com /n Github URL: https://github.com/sushmakaluva/
