@@ -2,8 +2,7 @@
 
 Readme Generator
 
-![video](Readme Generator.mp4)
-https://drive.google.com/file/d/1ZgdpGJVvBT5NLimQlRXEu4LGIGJGGth7/view
+![video](https://youtu.be/grxWI2bEid0)
 
 ## Website URL
 
