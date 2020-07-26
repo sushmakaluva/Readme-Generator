@@ -2,8 +2,9 @@
 
 Readme Generator
 
-[![VIDEO](https://img.youtube.com/vi/grxWI2bEid0/0.jpg)](https://www.youtube.com/watch?v=grxWI2bEid0)
+## Video
 
+[![VIDEO](https://img.youtube.com/vi/grxWI2bEid0/0.jpg)](https://www.youtube.com/watch?v=grxWI2bEid0)
 
 ## Website URL
 
