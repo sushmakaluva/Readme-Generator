@@ -12,8 +12,8 @@ g
 
 ## Table of Contents
 
-* [Installation]
-* [Usage]
+* [Installation](#Installation)
+* (#Usage)
 * [Tests]
 
 
