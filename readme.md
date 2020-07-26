@@ -12,16 +12,16 @@ This readme generator uses the Inquirer Node Package to prompt the user for de
 
 ## Table of Contents
 
-* [Installation] (#Installation)
-* [Usage] (#Usage)
-* [License] (#License)
-* [Contributing] (#Contributing)
-* [Tests] (#Tests)
-* [Questions] (#Questions)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 
 ## Installation
 
-Once you clone the repo, run npm install in the command line to install the required dependencies (i.e. inquirer and other packages). Make sure you have node instal
+Once you clone the repo, run npm install in the command line to install the required dependencies (i.e. inquirer and other packages). Make sure you have node installed.
 
 ## Usage
 
@@ -37,7 +37,7 @@ Contributions, issues and feature requests are welcome.If interested, please con
 
 ## Tests
 
-Run the below command:
+Run the command : npm run test
 
 ## Questions
 

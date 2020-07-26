@@ -66,7 +66,7 @@ inquirer
     const { Username } = response;
     const { Email } = response;
     const ContentTitles = ['Installation', 'Usage', 'License', 'Contributing', 'Tests', 'Questions'];
-    const toc = ContentTitles.map((title) => `* [${title}] (#${title})`).join('\n');
+    const toc = ContentTitles.map((title) => `* [${title}](#${title})`).join('\n');
 
     const result = [
       `# Title\n\n${Title}\n\n`,
