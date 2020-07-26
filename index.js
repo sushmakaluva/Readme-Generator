@@ -35,17 +35,12 @@ inquirer
       name: 'Tests',
     },
     {
-      type: 'list',
+      type: 'checkbox',
       message: 'Enter license details',
       name: 'License',
-      choices: ['util', 'http', 'inquirer', 'axios'],
+      choices: ['util', 'https', 'inquirer', 'axios'],
     },
 
-    {
-      type: 'editor',
-      message: 'Enter table of contents',
-      name: 'Contents',
-    },
     {
       type: 'input',
       message: 'Enter github username',
@@ -59,23 +54,34 @@ inquirer
 
   ])
   .then((response) => {
-    console.log(response);
+    // console.log(response);
     const { Title } = response;
     const { URL } = response;
     const { Description } = response;
     const { Installation } = response;
     const { Usage } = response;
-
     const { Tests } = response;
     const { License } = response;
-
+    const badges = License.map((badge) => `![NPM](https://img.shields.io/npm/l/${badge})`).join(' ');
     const { Username } = response;
     const { Email } = response;
-    const { Contents } = response;
+    const ContentTitles = ['Installation', 'Usage', 'License', 'Contributing', 'Tests', 'Questions'];
+    const toc = ContentTitles.map((title) => `* [${title}] (#${title})`).join('\n');
 
-    const result = `# Title\n\n${Title}\n\n## Website URL\n\n${URL}\n\n## Description\n\n${Description}\n\n## Table of Contents\n\n${Contents}\n\n## Installation\n\n${Installation} \n\n## Usage\n\n${Usage} \n\n## License\n\n![NPM](https://img.shields.io/npm/l/${License})\n\n## Contributing\n\nIf interested, please contribute to the project at https://github.com/${Username}/ \n\n## Tests\n\n${Tests}\n\n## Questions\n\nIf any questions, reach out to me at ${Email}\n`;
+    const result = [
+      `# Title\n\n${Title}\n\n`,
+      `## Website URL\n\n${URL}\n\n`,
+      `## Description\n\n${Description}\n\n`,
+      `## Table of Contents\n\n${toc}\n\n`,
+      `## Installation\n\n${Installation}\n\n`,
+      `## Usage\n\n${Usage}\n\n`,
+      `## License\n\n${badges}\n\n`,
+      `## Contributing\n\nContributions, issues and feature requests are welcome.If interested, please contribute to the project at https://github.com/${Username}/\n\n`,
+      `## Tests\n\n${Tests}\n\n`,
+      `## Questions\n\nIf any questions, reach out to me at ${Email}\n`,
+    ].join('');
 
-    fs.writeFile('readme.md', result, (err) => {
+    fs.writeFileSync('README.md', result, (err) => {
       if (err) throw err;
       console.log('Saved!');
     });
