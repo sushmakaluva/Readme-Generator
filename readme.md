@@ -1,39 +1,42 @@
 # Title
 
-d
+f
 
 ## Website URL
 
-g
+s
 
 ## Description
 
-s
+h
 
 ## Table of Contents
 
+*Installation
+Usage
 Tests
+
 
 ## Installation
 
-j
+s
 
 ## Usage
 
-a
+j
 
 ## License
 
-![NPM](https://img.shields.io/npm/l/util,inquirer,axios)
+![NPM](https://img.shields.io/npm/l/util)
 
 ## Contributing
 
-If interested, please contribute to the project at https://github.com/sushmakaluva/ 
+If interested, please contribute to the project at https://github.com/sushma/ 
 
 ## Tests
 
-h
+s
 
 ## Questions
 
-If any questions, reach out to me at kaluvasushma@gmail.com
+If any questions, reach out to me at kaluva
