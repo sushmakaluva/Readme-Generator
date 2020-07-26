@@ -2,7 +2,7 @@
 
 Readme Generator
 
-[![video](https://img.youtube.com/vi/grxWI2bEid0/0.jpg) ](https://youtu.be/grxWI2bEid0)
+[![video](https://img.youtube.com/vi/grxWI2bEid0/0.jpg) ]
 
 [![SC2 Video](https://img.youtube.com/vi/--b-9HrKK6w/0.jpg)](http://www.youtube.com/watch?v=--b-9HrKK6w)
 
