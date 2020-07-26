@@ -12,9 +12,9 @@ s
 
 ## Table of Contents
 
-* Installation
-* Usage
-* Tests
+* [Installation](#Installation)
+* (#Usage)
+* [Tests]
 
 
 
