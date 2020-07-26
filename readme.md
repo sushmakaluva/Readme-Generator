@@ -2,7 +2,7 @@
 
 Readme Generator
 
-![](Readme Generator.mp4)
+![video](Readme Generator.mp4)
 
 ## Website URL
 
