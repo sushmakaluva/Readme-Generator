@@ -6,6 +6,8 @@ Readme Generator
 
 [![VIDEO](https://img.youtube.com/vi/grxWI2bEid0/0.jpg)](https://www.youtube.com/watch?v=grxWI2bEid0)
 
+![Readme Generator Demo](demo.gif)
+
 ## Website URL
 
 https://sushmakaluva.github.io/Readme-Generator/.
@@ -16,12 +18,12 @@ This readme generator uses the Inquirer Node Package to prompt the user for de
 
 ## Table of Contents
 
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#License)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
-* [Questions](#Questions)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
 ## Installation
 
@@ -29,7 +31,7 @@ Once you clone the repo, run npm install in the command line to install the requ
 
 ## Usage
 
-Once the app is set up, run node index.js and answer the questions to generate your readme. 
+Once the app is set up, run node index.js and answer the questions to generate your readme.
 
 ## License
 
