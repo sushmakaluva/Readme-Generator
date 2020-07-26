@@ -12,9 +12,9 @@ g
 
 ## Table of Contents
 
-* Installation
-* Usage
-* Tests
+* [Installation]
+* [Usage]
+* [Tests]
 
 
 ## Installation
